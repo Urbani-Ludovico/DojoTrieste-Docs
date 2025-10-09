@@ -175,14 +175,14 @@
 \newcommand{\basedata}{%
 	Il/la sottoscritto/a \fieldfill\; nato/a a \field{1.5in} (\field{0.5in}) \\ 
 	il \field{1.5in}, C.F. \fieldfill, residente in \field{2in} \\
-	via \fieldfill, cellulare \field{2.5in} \\
-	telefono abitazione \field{2.5in} email \fieldfill.%
+	via \fieldfill, cellulare \field{3in} \\
+	telefono abitazione \field{2in} email \fieldfill.%
 }
 
 \newcommand{\childbasedata}{%
 	In qualità di \field{3in} \\
 	del minore \fieldfill\; nato a \field{1.5in} (\field{0.5in}) \\
 	il \field{1.5in}, C.F. \fieldfill, residente in \field{2in} \\
-	via \field{3in}, cellulare \fieldfill \\
+	via \fieldfill, cellulare \field{3in} \\
 	telefono abitazione \field{2in} email \fieldfill.%
 }
