@@ -61,5 +61,5 @@
 			\\[0.5in] {\large\@date}
 		\fi
 	\end{center}%
-	\vspace{0.5in}%
+	\vspace{0.1in}%
 }
