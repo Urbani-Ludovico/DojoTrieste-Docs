@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{djtsdoc}[2025/01/01 Latex class for Dojo Trieste modules]
+\ProvidesClass{djtsasddoc}[2025/01/01 Latex class for Dojo Trieste modules]
 
 \LoadClass{djts}
 
@@ -8,23 +8,16 @@
 % ========================================
 
 \RequirePackage[
-	bottom = 1in,
+	bottom = 1.4in,
 	left = 0.8in,
 	right = 0.8in,
-	top = 1.6in,
+	top = 2in,
 	headheight = 1.1in,
-	headsep = 0.2in,
-	footskip = 0.4in
+	headsep = 0.4in,
+	footskip = 0.8in
 ]{geometry}
 
 \setlength{\parindent}{0pt}
-
-% ========================================
-% Style
-% ========================================
-
-\RequirePackage{helvet}
-\renewcommand\familydefault\sfdefault
 
 % ========================================
 % Headers
@@ -63,3 +56,15 @@
 	\end{center}%
 	\vspace{0.5in}%
 }
+
+% ========================================
+% Style
+% ========================================
+
+\RequirePackage{enumerate}
+\RequirePackage{enumitem}
+\RequirePackage{romannum}
+
+\renewcommand{\labelenumi}{\arabic*.}
+\renewcommand{\labelenumii}{\alph*.}
+\renewcommand{\labelenumiii}{\roman*.}
