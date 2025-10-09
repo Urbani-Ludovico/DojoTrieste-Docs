@@ -8,13 +8,13 @@
 % ========================================
 
 \RequirePackage[
-	bottom = 0.8in,
+	bottom = 1.4in,
 	left = 0.8in,
 	right = 0.8in,
-	top = 1.6in,
+	top = 2in,
 	headheight = 1.1in,
-	headsep = 0.2in,
-	footskip = 0.4in
+	headsep = 0.4in,
+	footskip = 0.8in
 ]{geometry}
 
 \setlength{\parindent}{0pt}
@@ -26,12 +26,12 @@
 \RequirePackage{fancyhdr}
 
 \fancypagestyle{std}{%
-	\fancyhead[L]{\includegraphics[height = 1in]{/home/crash/Projects/LatexModules/DojoTrieste/images/logo_dojo.png}}%
+	\fancyhead[L]{\includegraphics[height = 1in]{logo_dojo.png}}%
 	\fancyhead[R]{\small%
 		\textbf{\large A.S.D. DOJO Trieste} \\[5pt]%
 		C.F.: 90124290322 \\%
 		Email: dojotrieste@libero.it \\%
-		Sede legale: Via G. Sinico 1 - 34139 Trieste \\[2pt]%
+		Sede legale: Via G. Sinico 1 - 34139 Trieste \\%
 		Codice affiliazione FIJLKAM: 06TS2819 \\%
 		Iscritta al n. 107500 del Registro Nazionale del C.O.N.I.%
 	}%
