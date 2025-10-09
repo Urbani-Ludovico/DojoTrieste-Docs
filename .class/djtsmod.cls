@@ -136,7 +136,7 @@
 	\end{center}%
 }
 
-\newcommand{\circlelabel}{\tikz[baseline = -0.02cm] \draw (0.08cm, 0.08cm) circle (0.16cm);}
+\newcommand{\circlelabel}{\tikz[baseline = -0.04cm] \draw (0.08cm, 0.08cm) circle (0.16cm);}
 \newcommand{\squarelabel}{\tikz[baseline = 0.02cm]\draw (0, 0) rectangle (0.32cm, 0.32cm);}
 
 \newenvironment{radiolist}{%
