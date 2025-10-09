@@ -23,6 +23,10 @@
 % Fields
 % ========================================
 
+#import:amssymb
+#import:enumerate
+#import:enumitem
+
 \field{width}#S
 \fieldfill
 

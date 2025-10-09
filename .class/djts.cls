@@ -46,8 +46,9 @@
 % ========================================
 
 \RequirePackage{amssymb}
-\RequirePackage{enumitem}
 \RequirePackage{tikz}
+\usepackage{enumerate}
+\usepackage{enumitem}
 
 \newcommand{\field}[1]{\rule{#1}{0.4pt}\rule{0pt}{4ex}}
 \newcommand{\fieldfill}{\hrulefill\rule{0pt}{4ex}}
